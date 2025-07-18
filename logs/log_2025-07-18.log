@@ -1,0 +1,23 @@
+2025-07-18 12:16:30,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.30.0.54:5000
+2025-07-18 12:16:30,485 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-18 12:16:33,376 - INFO - 10.30.0.54 - - [18/Jul/2025 12:16:33] "GET / HTTP/1.1" 200 -
+2025-07-18 12:17:05,594 - INFO - Creating RetrievalQA chain...
+2025-07-18 12:17:05,594 - INFO - Loading FAISS vector store...
+2025-07-18 12:17:05,594 - INFO - Loading HuggingFace embeddings model...
+2025-07-18 12:17:07,701 - INFO - Use pytorch device_name: cuda:0
+2025-07-18 12:17:07,701 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-18 12:17:14,344 - INFO - HuggingFace embeddings model loaded successfully.
+2025-07-18 12:17:14,344 - INFO - Loading existing vectorstore...
+2025-07-18 12:17:14,345 - INFO - Loading faiss with AVX512 support.
+2025-07-18 12:17:14,353 - INFO - Successfully loaded faiss with AVX512 support.
+2025-07-18 12:17:14,355 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-18 12:17:14,375 - INFO - Vector store loaded successfully.
+2025-07-18 12:17:14,376 - INFO - Loading LLM from Hugging Face Hub...
+2025-07-18 12:17:14,407 - INFO - LLM loaded successfully.
+2025-07-18 12:17:14,407 - INFO - LLM loaded successfully.
+2025-07-18 12:17:14,407 - INFO - Setting custom prompt template for RetrievalQA chain...
+2025-07-18 12:17:14,407 - INFO - RetrievalQA chain created successfully.
+2025-07-18 12:17:14,839 - INFO - 10.30.0.54 - - [18/Jul/2025 12:17:14] "POST / HTTP/1.1" 200 -
